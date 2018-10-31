@@ -12,6 +12,8 @@ import { IncrementadorComponent } from "../component/incrementador/incrementador
 import { ChartsModule } from 'ng2-charts';
 import { GraficadonaComponent } from "../component/graficadona/graficadona.component";
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -28,7 +30,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         Graficas1Component,
         IncrementadorComponent,
         GraficadonaComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
        
     ],
     exports: [
