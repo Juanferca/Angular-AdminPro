@@ -3,6 +3,7 @@ import { PAGES_ROUTES } from "./pages.routes";
 
 import { SharedModule } from "../shared/shared.module";
 import { FormsModule } from "@angular/forms";
+import { CommonModule } from '@angular/common';
 import { PagesComponent } from './pages.component';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -14,6 +15,8 @@ import { GraficadonaComponent } from "../component/graficadona/graficadona.compo
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
+import { ProfileComponent } from './profile/profile.component';
+import { PipesModule } from '../pipes/pipes.module';
 
 
 
@@ -32,7 +35,8 @@ import { RxjsComponent } from './rxjs/rxjs.component';
         GraficadonaComponent,
         AccountSettingsComponent,
         PromesasComponent,
-        RxjsComponent
+        RxjsComponent,
+        ProfileComponent
        
     ],
     exports: [
@@ -41,10 +45,12 @@ import { RxjsComponent } from './rxjs/rxjs.component';
         Graficas1Component
     ],
      imports: [
+         CommonModule,
          SharedModule,
          PAGES_ROUTES,
          FormsModule,
-         ChartsModule
+         ChartsModule,
+         PipesModule
         
     ],
 })
