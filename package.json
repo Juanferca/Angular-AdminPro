@@ -26,6 +26,7 @@
     "rxjs": "~6.2.0",
     "rxjs-compat": "^6.3.3",
     "sweetalert": "^2.1.2",
+    "sweetalert2": "^8.10.4",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
@@ -48,5 +49,17 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~2.9.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanferca/Angular-AdminPro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanferca/Angular-AdminPro/issues"
+  },
+  "homepage": "https://github.com/Juanferca/Angular-AdminPro#readme"
 }

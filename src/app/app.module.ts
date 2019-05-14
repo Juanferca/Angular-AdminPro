@@ -8,6 +8,9 @@ import { APP_ROUTES } from './app.routes';
 import { PagesModule } from './pages/pages.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+// Pipe module
+import { PipesModule } from './pipes/pipes.module';
+
 // Componentes
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -16,6 +19,11 @@ import { RegisterComponent } from './login/register.component';
 
 // Servicios
 import { ServiceModule } from './services/service.module';
+import { MedicoComponent } from './pages/medicos/medico.component';
+
+
+
+
 
 
 
@@ -25,6 +33,9 @@ import { ServiceModule } from './services/service.module';
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    MedicoComponent
+
+   
    
   ],
   imports: [
@@ -33,7 +44,8 @@ import { ServiceModule } from './services/service.module';
     PagesModule,
     FormsModule,
     ReactiveFormsModule,
-    ServiceModule
+    ServiceModule,
+    PipesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
