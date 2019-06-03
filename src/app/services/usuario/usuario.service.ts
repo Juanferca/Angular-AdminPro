@@ -116,7 +116,7 @@ export class UsuarioService {
                  Swal.fire('Usuario actualizado', usuario.nombre, 'success');
 
                  return true;
-            }),,
+            }),
             catchError(err => {
               Swal.fire('Error en el login', err.error.mensaje, 'error');
               return throwError(err);

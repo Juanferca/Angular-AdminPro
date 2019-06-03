@@ -22,12 +22,14 @@
     "@angular/router": "^6.1.0",
     "chart.js": "^2.7.3",
     "core-js": "^2.5.4",
+    "fstream": "^1.0.12",
     "ng2-charts": "^1.6.0",
     "rxjs": "~6.2.0",
     "rxjs-compat": "^6.3.3",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^8.10.4",
-    "tar": "^4.4.8",
+    "tar": "^4.4.9",
+    "webpack-dev-server": "^3.5.1",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
