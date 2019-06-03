@@ -27,6 +27,7 @@
     "rxjs-compat": "^6.3.3",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^8.10.4",
+    "tar": "^4.4.8",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

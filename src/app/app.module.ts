@@ -15,18 +15,9 @@ import { PipesModule } from './pipes/pipes.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
-
-
 // Servicios
 import { ServiceModule } from './services/service.module';
 import { MedicoComponent } from './pages/medicos/medico.component';
-
-
-
-
-
-
-
 
 @NgModule({
   declarations: [
@@ -34,9 +25,6 @@ import { MedicoComponent } from './pages/medicos/medico.component';
     LoginComponent,
     RegisterComponent,
     MedicoComponent
-
-   
-   
   ],
   imports: [
     BrowserModule,

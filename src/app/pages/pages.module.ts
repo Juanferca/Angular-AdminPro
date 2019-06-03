@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { PAGES_ROUTES } from './pages.routes';
 
+
 import { SharedModule } from '../shared/shared.module';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 import { PagesComponent } from './pages.component';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -16,12 +18,13 @@ import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { ProfileComponent } from './profile/profile.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
-
 import { PipesModule } from '../pipes/pipes.module';
+
+
 import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
-import { CommonModule } from '@angular/common';
 import { HospitalesComponent } from './hospitales/hospitales.component';
 import { MedicosComponent } from './medicos/medicos.component';
+import { BusquedaComponent } from './busqueda/busqueda.component';
 
 
 
@@ -40,7 +43,9 @@ import { MedicosComponent } from './medicos/medicos.component';
         UsuariosComponent,
         ModalUploadComponent,
         HospitalesComponent,
-        MedicosComponent
+        MedicosComponent,
+        ProfileComponent,
+        BusquedaComponent
     ],
     exports: [
         DashboardComponent,
@@ -53,7 +58,7 @@ import { MedicosComponent } from './medicos/medicos.component';
          PAGES_ROUTES,
          FormsModule,
          ChartsModule,
-         PipesModule,
+         PipesModule
     ],
 })
 
